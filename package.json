@@ -1,0 +1,18 @@
+{
+  "name": "tsx-bug",
+  "version": "0.0.2",
+  "license": "MIT",
+  "scripts": {
+    "build:cjs": " gulp --require @esbuild-kit/cjs-loader",
+    "build:tsx": " gulp --require tsx/cjs"
+  },
+  "devDependencies": {
+    "@esbuild-kit/cjs-loader": "^2.4.4",
+    "@types/gulp": "^4.0.16",
+    "@types/node": "^18.18.8",
+    "gulp": "^4.0.2",
+    "prettier": "^3.0.3",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
